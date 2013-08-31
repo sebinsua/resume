@@ -3,10 +3,10 @@
 # This build script does two things:
 
 # 1. Compile the pdfs (to output/) and copy back the results
-if command -v xelatex >/dev/null 2>&1; then
+if command -v /usr/local/texlive/2013basic/bin/universal-darwin/xelatex >/dev/null 2>&1; then
   mkdir -p output;
   for f in *-resume.tex; do
-    xelatex -output-dir=output $f;
+    /usr/local/texlive/2013basic/bin/universal-darwin/xelatex -output-dir=output $f;
     pdf=output/${f%.tex}.pdf; [ -e $pdf ] && mv $pdf .;
     echo; echo "build.sh: $pdf moved to current directory";
   done;
