@@ -1,0 +1,197 @@
+% LaTeX source of my resume
+% =========================
+
+% Commented for easy reuse... ;)
+
+% See the `README.md` file for more info.
+
+% This file is licensed under the CC-NC-ND Creative Commons license.
+
+
+% start a document with the here given default font size and paper size
+\documentclass[10pt,a4paper]{article}
+
+% include the `tex` instructions that takes care of loading packages and defining commands
+\include{resume-commands}
+
+
+
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax whitespacing in favour of straight margins
+
+\maintitle{Seb Insua}{Full Stack Developer}  % title on top of the document
+
+\nobreakvspace{0.3em}  % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\noindent\textsmaller{+}44 79 123 03758\sbull
+\href{http://github.com/sebinsua}{github.com/sebinsua}\sbull
+\href{http://twitter.com/sebinsua}{twitter.com/sebinsua}\sbull
+\href{http://blog.sebinsua.com}{blog.sebinsua.com}\sbull
+\href{mailto:me@sebinsua.com}{me\mbox{}@\mbox{}sebinsua.com}
+\\
+6 De Beauvoir Rd\sbull
+Hackney\sbull
+London\sbull
+N1 5SU
+
+\spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
+
+\roottitle{Summary}  % a root section title
+
+\vspace{-1.3em}  % some vertical spacing
+\begin{multicols}{2}  % open a multicolumn environment
+\noindent \emph{Software engineer and systems thinker with a deep interest in the humanities, an entrepreneurial mindset and a passion for user-focused development. After a short sabbatical to learn iOS development (with the aim of creating a startup), I have decided to re-enter the workplace.}
+\\
+\\
+I was sixteen when I wrote my first few lines of code. My interest was piqued when I discovered a small homebrew community for the handheld device, the GP32. Back then of course, writing software for mobile devices wasn't as easy as it is now, often requiring knowledge of the hardware to help with performance. Over time I strayed away from this towards developing applications for the internet but it taught me that the best way of learning is through play and as such I learn as a hobby.\newline
+
+As a self-directed learner, I avoid two things: neology or becoming trapped in any one domain. My core belief is that good fundamentals and principles provide the greatest value to others. This has occasionally lead me in strange directions, such as the time I bootstrapped a non-profit online music magazine with 15 contributors; but often I find that experiences in one domain give insight in others. In terms of software engineering I favour principles, techniques and best practices from: \href{http://12factor.net}{the twelve-factor app}, functional programming, antifragility, behaviour-driven development (\acr{BDD}) and \href{http://infoq.com/presentations/Simple-Made-Easy}{Simple Made Easy}.\newline
+
+Over the last five years, I've worked with a number of different technologies on both the back-end and the front-end. For a long while my favourite language was Python, however recently I've been coding in JavaScript as it is a more general purpose and better lends itself to a functional style. My most challenging programming task was creating software to resolve questions in real-time from a stream of data, as depending on the depth and precision of the data the operations had to change significantly.\newline
+
+Additionally, earlier this year I decided to take a sabbatical and have since acquired some experience in creating iOS apps, running customer development, and understanding business concepts like \acr{CAC}, \acr{ARPU} and \acr{LTV}. 
+
+\end{multicols}
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Technical specialties:}
+  {Full stack software design and implementation. I prefer to work on on the back-end creating \acr{REST}ful \acr{API}s using Node.JS, Python or PHP; but I also know front-end technologies such as \acr{HTML5}, \acr{CSS3}, JavaScript and jQuery.}
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Other experience:}
+  {I love JavaScript and Python and flirt occasionally with Lisps. I follow the mantra \emph{the right tool for the right job} and quickly pick things up. In the past I've worked with: Backbone.JS, Objective-C, \acr{TDD} \& \acr{BDD} (PHPUnit, unittest, mocha.js, qunit), underscore.js, async.js, Flask, Django, My\acr{SQL}, Postgres\acr{SQL}, Java, Cassandra, MongoDB, etc.}
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Administration \& operations:}
+  {Experience with team leadership, shell scripting, Vagrant, Apache, Nginx, datacenter automation (Puppet), and continuous integration (Jenkins, Travis).}
+
+\spacedhrule{1.5em}{-0.4em}
+
+\roottitle{Experience}
+
+\headedsection  % sets the header for the section and includes any subsections
+  {\href{http://www.momentumlabs.io}{Momentum Labs}}
+  {\textsc{London, United Kingdom}} {%
+
+  \headedsubsection  % sets the header for a subsection and contains usually body text
+    {Founder}
+    {June \apo13 -- present}
+    {\bodytext{During my sabbatical, I founded an innovation lab and contracting firm and began work on an idea that had been burning in the back of my mind for a while: a service that allows you to take spontaneous weekend breaks. After the initial customer development and market research stage, I formed a business model and with the help of a mobile app designer I recruited, began coding a native app for iOS.}
+  }
+}
+
+\headedsection
+  {\href{http://www.bizzby.com}{BIZZBY}}
+  {\textsc{London, United Kingdom}} {%
+  \headedsubsection
+    {Senior Developer}
+    {Apr \apo13 -- Jun \apo13}
+    {\bodytext{Stealth startup creating a service marketplace mobile app. Joined fairly late in the development cycle to: add APIs to add/remove skills/suggestions from a user; make bug fixes; add skill-related functionality to other APIs; and add service management features to the CMS. Used technologies such as CoffeeScript, Node.JS, MongoDB and Mocha.JS (\acr{BDD}).}}
+}
+
+\headedsection
+  {\href{http://www.werinteractive.com}{We R Interactive}}
+  {\textsc{London, United Kingdom}} {%
+  \headedsubsection
+    {Lead Developer}
+    {Oct \apo12 -- Apr \apo13}
+    {\bodytext{
+        \emph{We R Interactive blends the best of games, film and TV production to create social games that bring global audiences together around sport and music.}
+        \begin{itemize}[leftmargin=0cm]
+            \item Lead the creation of a service-orientated architecture and helped to recruit and interview developers for my team.
+            \item Setup a continuous integration system using Jenkins, and automated deployment of a few of the services to AWS using Puppet.
+            \item Created a Node.JS service which would automatically generate a series of questions from a stream of data and a template.
+            \item Created a real-time market-outcome resolution service that was able to automatically resolve a series of previously generated questions depending on a stream of real-life data and a simple DSL. This was created using Node.JS, Cassandra, async.js, and underscore.js.
+	    \item Created a service which could have data pushed to or pulled from it, and that would parse this data into a common format and feed it into a PubSub message queue implemented on top of Redis for deeper processing. An extensive logging system was also implemented to help troubleshoot issues with the third-party supplier of data.
+            \item Helped to create a \acr{REST}ful front-end API using Express.js, and also tested the ability to resolve questions in real-time with Socket.io.
+            \item Helped to prototype an early version of the mobile app for iOS using Junior.js, Backbone.js, HTML5, CSS3, JavaScript and PhoneGap.
+        \end{itemize}
+    }}
+}
+
+\headedsection
+  {\href{http://www.saffrondigital.com}{Saffron Digital}}
+  {\textsc{London, United Kingdom}} {%
+  \headedsubsection
+    {Lead Developer}
+    {Jun \apo11 -- Oct \apo12}
+    {\bodytext{
+	\emph{Saffron Digital is the global, market-leading provider of connected device video, DRM, advertising and platform services. Saffron Digital was acquired by HTC in 2011.}
+	\begin{itemize}[leftmargin=0cm]
+	    \item Project leader on the HTC Watch project in which I lead a team of five developers.
+	    \item Significant input in re-engineering development process as we moved from being a startup to a larger company. For example: Git instead of SVN; continuous integration; modern deployment; UltraViolet; etc.
+	    \item Architecture and development of a distributed encoding orchestration system, coded in Python using Celery with RabbitMQ and later deployed onto AWS. This allows the company to scale up and down any content encoding they were doing depending on demand - and also to support multiple encoders through simple definitions of the AV outputs expected.
+	    \item Work on a Django key delivery service based on specifications passed to us by UltraViolet.
+	\end{itemize}}
+  }
+  \headedsubsection
+    {Senior Developer}
+    {Oct \apo10 -- Jun \apo11}
+    {\bodytext{
+	\begin{itemize}[leftmargin=0cm]
+            \item Designed a (60+ table) database for the HTC Watch web service. Due to my work with internationalisation and implementation of multiple payment services, this was run globally in close to 20 countries. Later on the project became a baseline for future web services for other clients (LG and Blockbuster). I helped write many parts of the service (which was written in PHP using Zend Framework).
+	    \item A client-side application for Samsung Connected TVs and set-top boxes written in object-orientated JavaScript.
+	\end{itemize}
+    }}
+  \headedsubsection
+    {PHP Developer}
+    {Feb \apo10 -- Oct \apo10}
+    {\bodytext{
+	\begin{itemize}[leftmargin=0cm]
+	    \item A RESTful web service for FOX to support a fully localised Family Guy video streaming Android application. A CMS was also created to help enter data, as well as reporting tools to give the business metrics to measure activity.	    \item A web service for Paramount Studio’s the League of Extraordinary Dancers iPhone Application. This was interoperable with the iTunes video store in order to check receipts.	    \item Implemented features on LG Movies on Mobile.  
+	\end{itemize}
+    }}
+}
+
+\headedsection
+  {\href{http://gurucareers.com}{Guru Careers}}
+  {\textsc{Tonbridge, United Kingdom}} {%
+  \headedsubsection
+    {Web Developer}
+    {Jan \apo10 -- Feb \apo10}
+    {\bodytext{Created a Wordpress site that used the 'Buddypress' plugin to create a social network for the unemployed. Provided jQuery, \acr{CSS}, \acr{PHP} and \acr{XHTML} skills on a redesign.}}
+}
+
+\begin{center}
+  \emph{Please refer to \href{http://www.linkedin.com/in/heyseb}{my Linkedin profile} for the complete list of work experiences along with recommendations.}
+\end{center}
+
+
+\spacedhrule{-0.2em}{-0.4em}
+
+\roottitle{Education}
+
+\headedsection
+  {University of Kent}
+  {\textsc{Canterbury, United Kingdom}} {%
+  \headedsubsection
+    {Bachelor's degree in Computer Science}
+    {2005 -- 2009}
+    {\bodytext{Courses included Computer Systems and Algorithms, Data Structures and Complexity, Data Mining and Knowledge Discovery, Operating Systems and Architecture, Software Engineering Practice, Database Systems, and Distributed Systems and Networks. While studying here I also coordinated and guided a team of four developers creating a DJ mixing application in Java for my final project.}
+  }
+}
+
+\headedsection
+  {Cranbrook School}
+  {\textsc{Cranbrook, United Kingdom}} {%
+  \headedsubsection
+    {GCSEs \& A-Levels \textnormal{(secondary education)}}
+    {2000 -- 2005}
+    {\bodytext{}
+  }
+}
+
+\spacedhrule{0em}{-0.4em}
+
+\roottitle{Interests}
+
+\inlineheadsection
+  {Non-exhaustive:}
+  {Antifragility, anthropology, cognitive science, computational sociology, philosophy, poetry, product design, startups and user experience.}
+
+\end{document}
