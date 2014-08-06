@@ -69,4 +69,4 @@ My most recent freelance project was an Express.js middleware to allow one-line
 installation of analytics into Node.JS projects for the 500 Startups backed
 Silicon Valley startup Keen IO. This was suggested as a way of reducing the
 integration time of their analytics service from multiple hours/days to just a
-few seconds
+few seconds.
