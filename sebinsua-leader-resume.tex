@@ -14,12 +14,10 @@
 % include the `tex` instructions that takes care of loading packages and defining commands
 \include{resume-commands}
 
-
-
 \begin{document}  % begin the content of the document
 \sloppy  % this to relax whitespacing in favour of straight margins
 
-\maintitle{Seb Insua}{Product-focused Engineer}  % title on top of the document
+\maintitle{Seb Insua}{Team Leader \& Product Hacker}  % title on top of the document
 
 \nobreakvspace{0.3em}  % add some page break averse vertical spacing
 
@@ -39,26 +37,24 @@
 
 \vspace{-1.3em}  % some vertical spacing
 \begin{multicols}{2}  % open a multicolumn environment
-\noindent \emph{Systems thinker with a deep interest in the humanities, a passion for product design and an entrepreneurial mindset.}
+\noindent \emph{Engineer with a passion for product design, deep interest in the humanities and an entrepreneurial mindset.}
 \\
 \\
 I was sixteen when my fascination with technology picked up steam. My interest was piqued on discovering a small homebrew community for the handheld gaming device, the GP32. It was inspiring to see a flourishing community of hobbyists creating games for each other and I still maintain that we learn best through play.\newline
 
-I'm product-focused and truly passionate about making an impact in other people's lives. I've always got side projects on-the-go, whether it's the non-profit online music zine that I bootstrapped to 15 regular contributors or the defunct travel startup that I taught myself Objective-C with. I don't always succeed at everything I do, but I give it my best and I try to learn from my mistakes.\newline
+I'm product-focused and passionate about making an impact in the world. I've always got side projects on-the-go, from the non-profit online music zine that I bootstrapped to 15 regular contributors to the defunct travel startup that I taught myself Objective-C with.\newline
 
-My speciality is in combining technical knowledge with lateral thinking. My preferred method of finding insights is to open myself to ideas from multiple domains and form analogies between these. I am fascinated by interdisciplinary thinking and due to this truly appreciate being part of cross-functional teams.\newline
-
-I have a full-stack skillset but recently have worked mainly with JavaScript. I favour techniques from: \href{http://12factor.net}{the twelve-factor app}, functional programming, antifragility with relation to high-availablity systems, behaviour-driven development (\acr{BDD}) and \href{http://infoq.com/presentations/Simple-Made-Easy}{Simple Made Easy}.\newline
+My speciality is in combining technical knowledge with lateral thinking. I am fascinated by interdisciplinary thinking and due to this appreciate being part of true cross-functional teams. Techwise I have a full-stack skillset but recently have worked mainly in JavaScript, Node.JS, and Swift. I favour technology philosophies from: \href{http://12factor.net}{the twelve-factor app}, functional programming, micro-services, behaviour-driven development (\acr{BDD}) and \href{http://infoq.com/presentations/Simple-Made-Easy}{Simple Made Easy}.\newline
 
 \end{multicols}
 
 \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
-  {Leadership, Product \& Operations:}
-  {Experience in team leadership (lead teams of 5+ people); multi-faceted approach to product creation: customer development, UX, financial modelling, development; ran a Hackathon with 80 participants, etc.}
+  {Technical specialties:}
+  {Full-stack software design and implementation. I love to work on on the back-end creating \acr{REST}ful \acr{API}s using Node.JS; but also work with mobile technologies like Swift and Cocoa Touch, and on the front-end using JavaScript, AngularJS, \acr{HTML5} and \acr{CSS3}. I follow the mantra \emph{the right tool for the right job} and quickly pick things up.}
 
 \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
-  {Technical specialties:}
-  {Full-stack software design and implementation. I love to work on on the back-end creating \acr{REST}ful \acr{API}s using Node.JS or Python; but also know front-end technologies such as JavaScript, \acr{HTML5} and \acr{CSS3}. I follow the mantra \emph{the right tool for the right job} and quickly pick things up.}
+  {Leadership, Product \& Operations:}
+  {Experience in team leadership (lead teams of 5+ people); product/technical mentor for Seedcamp companies; multi-faceted approach to product creation: customer development, UX, business modelling, development; ran a Hackathon with 80 participants, etc.}
 
 \spacedhrule{1.5em}{-0.4em}
 
@@ -69,12 +65,14 @@ I have a full-stack skillset but recently have worked mainly with JavaScript. I 
   {\textsc{London, United Kingdom}} {%
 
   \headedsubsection  % sets the header for a subsection and contains usually body text
-    {MD}
-    {Jun \apo13 -- Present}
-    {\bodytext{\emph{Hub for my startup ideas.}
+    {Founder of Spokes}
+    {Sep \apo14 -- Present}
+    {\bodytext{\emph{An professional networking iOS app to connect locals with complementary skills for coffee.}
     \begin{itemize}[leftmargin=0cm]
-      \item My first attempt at a startup was \href{http://getawayapp.co}{an app for spontaneous weekend breaks}. It wasn't the right idea for me to pursue but it allowed me to explore many elements of product creation. I spoke to over one hundred potential users while doing customer development, brainstormed the user experience with my co-founder, and created a native iOS MVP that alongside an attractive pitch successfully got me meetings with insiders. Unfortunately it turned out that travel is both very regulated and an extremely competitive market. After creating a spreadsheet to model the effects of different margins, CAC and conversions we decided that without high-levels of investment it would be difficult to survive to profitability.
-      \item Currently I am creating a business networking app. It will allow local communities of helpful people to freely and productively associate with each other in heterogenous work groups by unbundling roles from identities. An early paper prototype has been created as well as a back-end using Neo4j, Redis and Node.JS. An iOS app is being worked on and I'm looking to test my theories with early adopters soon.
+      \item \href{https://marvelapp.com/174c9e}{The UI and UX were designed using Sketch.}
+      \item The back-end API was architected and developed using Node.js, Koa.js, the graph database Neo4j and Redis.
+      \item The front-end app is nearing completion and was built using Swift, Cocoa Touch, ReactiveCocoa, and a few other Cocoapods.
+      \item I'm currently testing it with early adopters and hope to launch sometime in 2015.
     \end{itemize}
   }}
 
@@ -83,12 +81,23 @@ I have a full-stack skillset but recently have worked mainly with JavaScript. I 
     {Jun \apo13 -- Present}
     {\bodytext{\emph{Freelancing, consulting and open-source activities.}
     \begin{itemize}[leftmargin=0cm]
+      \item During crunchtime at a London startup I sacrificed my freetime to help them work on a Phonegap game in which you try to predict the results of future Football games. I finish my normal job at 5:30PM and I run over there to work an extra 5 hours before going home.
       \item \href{https://github.com/sebinsua/express-keenio}{An Express.js middleware to allow one-line installation of analytics into Node.JS projects} for the \href{https://www.sequoiacap.com/}{Sequoia Capital} backed Silicon Valley startup \href{http://keen.io}{Keen IO}. This was a project born out of an idea I suggested as a way of reducing the time-to-setup of their analytics service from multiple hours/days to around 15 seconds.
       \item A one-week integration of analytics into \href{http://crowdsurge.com}{CrowdSurge's stores} to help visualise user flows with funnels, segmentation, etc.
       \item A work-in-progress JavaScript object transformation library/philosophy called \href{https://github.com/sebinsua/jstruct}{Jstruct}.
       \item Sporadic articles on user experience, group psychology, technology and philosophy.
     \end{itemize}
   }}
+}
+
+\headedsection
+  {\href{http://gov.uk/government/organisations/home-office}{Home Office}}
+  {\textsc{London, United Kingdom}} {%
+  \headedsubsection
+    {Contract Node.JS Specialist}
+    {Jan \apo15 -- Present}
+    {\bodytext{\emph{The Home Office is a ministerial department of the Government of the United Kingdom, responsible for immigration, security, and law and order.}
+    }}
 }
 
 \headedsection
@@ -156,22 +165,22 @@ I have a full-stack skillset but recently have worked mainly with JavaScript. I 
     {Lead Python Developer}
     {Oct \apo10 -- Oct \apo12}
     {\bodytext{
-	\emph{Saffron Digital is the global, market-leading provider of connected device video, DRM, advertising and platform services. Saffron Digital was acquired by HTC in 2011.}
-	\begin{itemize}[leftmargin=0cm]
-	    \item Project leader and architect of the HTC Watch project in which I lead a team of five developers. Due to my early work on internationalisation and implementation of multiple payment services we were able to run this globally in close to 20 countries. Later on the project became a baseline for future web services for other clients.
-	    \item Significant input in re-engineering development process as we moved from being a startup to a larger company. For example: an engineer empowering company culture; Git instead of SVN; continuous integration; modern deployment tools; etc.
-	    \item Architecture and development of a new platform based on understandings gleaned from previous services. Worked on service to orchestrate and configure encoders in order to run encodes in parallel on AWS.
+  \emph{Saffron Digital is the global, market-leading provider of connected device video, DRM, advertising and platform services. Saffron Digital was acquired by HTC in 2011.}
+  \begin{itemize}[leftmargin=0cm]
+      \item Project leader and architect of the HTC Watch project in which I lead a team of five developers. Due to my early work on internationalisation and implementation of multiple payment services we were able to run this globally in close to 20 countries. Later on the project became a baseline for future web services for other clients.
+      \item Significant input in re-engineering development process as we moved from being a startup to a larger company. For example: an engineer empowering company culture; Git instead of SVN; continuous integration; modern deployment tools; etc.
+      \item Architecture and development of a new platform based on understandings gleaned from previous services. Worked on service to orchestrate and configure encoders in order to run encodes in parallel on AWS.
       \item A client-side application for Samsung Connected TVs and set-top boxes written in object-orientated JavaScript.
-	\end{itemize}}
+  \end{itemize}}
   }
   \headedsubsection
     {PHP Developer}
     {Feb \apo10 -- Oct \apo10}
     {\bodytext{
-	\begin{itemize}[leftmargin=0cm]
-	    \item A RESTful web service for FOX to support a fully localised Family Guy video streaming Android application. A CMS was also created as well as reporting tools to give the business metrics to measure activity.
-	    \item A web service for Paramount Studio’s the League of Extraordinary Dancers iPhone Application. This was interoperable with the iTunes video store in order to check receipts.
-	\end{itemize}
+  \begin{itemize}[leftmargin=0cm]
+      \item A RESTful web service for FOX to support a fully localised Family Guy video streaming Android application. A CMS was also created as well as reporting tools to give the business metrics to measure activity.
+      \item A web service for Paramount Studio’s the League of Extraordinary Dancers iPhone Application. This was interoperable with the iTunes video store in order to check receipts.
+  \end{itemize}
     }}
 }
 
@@ -209,7 +218,7 @@ I have a full-stack skillset but recently have worked mainly with JavaScript. I 
 \roottitle{Interests}
 
 \inlineheadsection
-  {Non-exhaustive:}
+  {}
   {Anthropology, antifragility, economics, sociology, philosophy, poetry, product design, startups and user experience.}
 
 \end{document}
