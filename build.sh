@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# This build script does two things:
+export PATH=/usr/local/texlive/2013basic/bin/universal-darwin/:$PATH;
+
+#This build script does two things:
 
 # 1. Compile the pdfs (to output/) and copy back the results
 if command -v /usr/local/texlive/2013basic/bin/universal-darwin/xelatex >/dev/null 2>&1; then
