@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------
 
-## Summary
+### Summary
 
 I learnt to program when I was sixteen after discovering a small but
 flourishing homebrew community. Realising that self-taught amateurs were
@@ -39,7 +39,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ------------------------------------------------------------------------
 
-## Experience
+### Experience
 
 ##### **[~](http://www.momentumlabs.io)** *London, United Kingdom / Remote*
 ###### **Freelancer** *Jun '13 – Present*
@@ -128,7 +128,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ------------------------------------------------------------------------
 
-## Education
+### Education
 
 ##### **Coursera** *Online*
 ###### **Machine Learning** *Feb '16*
@@ -146,6 +146,6 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ------------------------------------------------------------------------
 
-## Interests
+### Interests
 
 Design, Economics, Philosophy, Poetry.
