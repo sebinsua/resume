@@ -1,7 +1,7 @@
 # Seb Insua
 > *Tech Lead & Full-stack Engineer*
 >
-> [me@sebinsua.com](mailto:me@sebinsua.com) * 079 123 03758 * [github.com/sebinsua](http://github.com/sebinsua) * [sebinsua.com](http://sebinsua.com) * [twitter.com/sebinsua](http://twitter.com/sebinsua)
+> [me@sebinsua.com](mailto:me@sebinsua.com) • 079 123 03758 • [github.com/sebinsua](http://github.com/sebinsua) • [sebinsua.com](http://sebinsua.com) • [twitter.com/sebinsua](http://twitter.com/sebinsua)
 
 ------------------------------------------------------------------------
 
@@ -66,7 +66,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 - Code reviews. Mentoring. Documentation. Architecture.
 - D3. React. Redux. Node.js.
-- Wrote a number of open-source projects (e.g. [redux-saga-helpers](https://github.com/sebinsua/redux-saga-helpers) and [react-redux-wizard](https://github.com/sebinsua/react-redux-wizard)).
+- Wrote a number of open-source projects (e.g. [`redux-saga-helpers`](https://github.com/sebinsua/redux-saga-helpers) and [`react-redux-wizard`](https://github.com/sebinsua/react-redux-wizard)).
 
 ### [The Economist](http://www.economist.com/)
 > London, United Kingdom
@@ -77,7 +77,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 *The Economist is an English-language weekly newspaper.*
 
 - React. ES6. Node.
-- Numerous components (e.g. [@economist/component-articletemplate](https://github.com/economist-components/component-articletemplate)) used in [The World In 2016 project](http://www.theworldin.com) and potentially other projects.
+- Numerous components (e.g. [`@economist/component-articletemplate`](https://github.com/economist-components/component-articletemplate)) used in [The World In 2016 project](http://www.theworldin.com) and potentially other projects.
 
 ### [Home Office](https://www.gov.uk/government/organisations/home-office)
 > London, United Kingdom
@@ -104,7 +104,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Node.JS, RabbitMQ, Elasticsearch, Redis.
 
 ### [Hailo](https://hailoapp.com/)
-> <span style="font-variant:small-caps;">London, United Kingdom</span>
+> London, United Kingdom
 
 #### Contract JavaScript Engineer
 > *Sep '13 – Jan '14*
@@ -159,18 +159,16 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ## Education
 
-### Coursera
-> Online
+##### **Coursera** *Online*
 
-#### Machine Learning
+####### **Machine Learning**
 > *Feb '16*
 
 [Course Certificate, License E3XLGER56CQ3](https://www.coursera.org/account/accomplishments/verify/E3XLGER56CQ3)
 
-### University of Kent
-> Canterbury, United Kingdom
+##### **University of Kent** *Canterbury, United Kingdom*
 
-#### Bachelor’s degree in Computer Science
+###### **Bachelor’s degree in Computer Science**
 > *2005 – 2009*
 
 Courses included Computer Systems and Algorithms, Data Structures and
@@ -180,10 +178,9 @@ Distributed Systems and Networks. While studying here I also coordinated
 and guided a team of four developers creating a DJ mixing application in
 Java for my final project.
 
-### Cranbrook School
-> Cranbrook, United Kingdom
+##### **Cranbrook School** *Cranbrook, United Kingdom*
 
-#### GCSEs & A-Levels (secondary education)
+###### **GCSEs & A-Levels** (secondary education)
 > *2000 – 2005*
 
 ------------------------------------------------------------------------
