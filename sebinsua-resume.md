@@ -1,6 +1,7 @@
 # Seb Insua
-> Tech Lead & Full-stack Engineer
-> me@sebinsua.com * 079 123 03758 * [github.com/sebinsua](http://github.com/sebinsua) * [sebinsua.com](http://sebinsua.com) * [twitter.com/sebinsua](http://twitter.com/sebinsua)
+> *Tech Lead & Full-stack Engineer*
+>
+> [me@sebinsua.com](mailto:me@sebinsua.com) * 079 123 03758 * [github.com/sebinsua](http://github.com/sebinsua) * [sebinsua.com](http://sebinsua.com) * [twitter.com/sebinsua](http://twitter.com/sebinsua)
 
 ------------------------------------------------------------------------
 
@@ -41,8 +42,8 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ## Experience
 
-### [Momentum](http://www.momentumlabs.io)]
-> <span style="font-variant:small-caps;">London, United Kingdom / Remote</span>
+### [~](http://www.momentumlabs.io)
+> London, United Kingdom / Remote
 
 #### Freelancer
 > *Jun '13 – Present*
@@ -56,7 +57,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Continued work on my app Spokes. Designed with Sketch and programmed using Node, Koa, Redis, the graph database Neo4j, Swift, and ReactiveCocoa as well as a few other Cocoapods.
 
 ### [McKinsey & Company](http://www.mckinsey.com/)
-> <span style="font-variant:small-caps;">Western Europe</span>
+> Western Europe
 
 #### Full-stack Engineer
 > *Apr '16 – Dec '16*
@@ -68,7 +69,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Wrote a number of open-source projects (e.g. [redux-saga-helpers](https://github.com/sebinsua/redux-saga-helpers) and [react-redux-wizard](https://github.com/sebinsua/react-redux-wizard)).
 
 ### [The Economist](http://www.economist.com/)
-> <span style="font-variant:small-caps;">London, United Kingdom</span>
+> London, United Kingdom
 
 #### Software Engineer
 > *Sep '15 – Dec '15*
@@ -79,7 +80,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Numerous components (e.g. [@economist/component-articletemplate](https://github.com/economist-components/component-articletemplate)) used in [The World In 2016 project](http://www.theworldin.com) and potentially other projects.
 
 ### [Home Office](https://www.gov.uk/government/organisations/home-office)
-> <span style="font-variant:small-caps;">London, United Kingdom</span>
+> London, United Kingdom
 
 #### Contract Technology Lead
 > *Jan '15 – Sep '15*
@@ -92,7 +93,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Created some early prototypes using Java 8 + Dropwizard + Swagger.
 
 ### [Red Badger](https://red-badger.com/)
-> <span style="font-variant:small-caps;">London, United Kingdom</span>
+> London, United Kingdom
 
 #### Contract Node.JS Consultant
 > *Mar '14 – Jul '14*
@@ -114,7 +115,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Other components were created so that behaviour relating to presentation was well-separated from configuration and data input; or made so that they could be updated in real-time, for example: an animated map of driver locations.
 
 ### [BIZZBY](https://bizzby.com/)
-> <span style="font-variant:small-caps;">London, United Kingdom</span>
+> London, United Kingdom
 
 #### Senior Node.JS Engineer
 > *Apr '13 – Jun '13*
@@ -122,7 +123,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 *BIZZBY is app your service to help you book a trusted local service in 30 seconds.*
 
 ### [We R Interactive](http://werinteractive.com/)
-> <span style="font-variant:small-caps;">London, United Kingdom</span>
+> London, United Kingdom
 
 #### Team Lead
 > *Oct '12 – Apr '13*
@@ -134,7 +135,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Setup a continuous integration system using Jenkins, and used Puppet to automate deployment of some of the services to AWS. Later on third-party data issues were reported to stakeholders and dealt with through design chances relating to logging and testing the data quality.
 
 ### [Saffron Digital](http://saffrondigital.com/)
-> <span style="font-variant:small-caps;">London, United Kingdom</span>
+> London, United Kingdom
 
 #### Team Lead
 > *Oct '10 – Oct '12*
@@ -159,7 +160,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 ## Education
 
 ### Coursera
-> <span style="font-variant:small-caps;">Online</span>
+> Online
 
 #### Machine Learning
 > *Feb '16*
@@ -167,7 +168,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 [Course Certificate, License E3XLGER56CQ3](https://www.coursera.org/account/accomplishments/verify/E3XLGER56CQ3)
 
 ### University of Kent
-> <span style="font-variant:small-caps;">Canterbury, United Kingdom</span>
+> Canterbury, United Kingdom
 
 #### Bachelor’s degree in Computer Science
 > *2005 – 2009*
@@ -180,7 +181,7 @@ and guided a team of four developers creating a DJ mixing application in
 Java for my final project.
 
 ### Cranbrook School
-> <span style="font-variant:small-caps;">Cranbrook, United Kingdom</span>
+> Cranbrook, United Kingdom
 
 #### GCSEs & A-Levels (secondary education)
 > *2000 – 2005*
