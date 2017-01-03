@@ -124,7 +124,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - A RESTful web service for FOX to support a fully localised Family Guy video streaming Android application. A CMS was also created as well as reporting tools to give the business metrics to measure activity.
 - A web service for Paramount Studio’s the League of Extraordinary Dancers iPhone Application. This was interoperable with the iTunes video store in order to check receipts.
 
-*Please refer to [my Linkedin profile](http://www.linkedin.com/in/heyseb) for the complete list of work experiences along with recommendations.*
+*Please refer to [my Linkedin profile](http://www.linkedin.com/in/sebinsua) for the complete list of work experiences along with recommendations.*
 
 ------------------------------------------------------------------------
 
