@@ -161,15 +161,13 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ##### **Coursera** *Online*
 
-####### **Machine Learning**
-> *Feb '16*
+###### **Machine Learning** *Feb '16*
 
 [Course Certificate, License E3XLGER56CQ3](https://www.coursera.org/account/accomplishments/verify/E3XLGER56CQ3)
 
 ##### **University of Kent** *Canterbury, United Kingdom*
 
-###### **Bachelor’s degree in Computer Science**
-> *2005 – 2009*
+###### **Bachelor’s degree in Computer Science** *2005 – 2009*
 
 Courses included Computer Systems and Algorithms, Data Structures and
 Complexity, Data Mining and Knowledge Discovery, Operating Systems and
@@ -180,8 +178,7 @@ Java for my final project.
 
 ##### **Cranbrook School** *Cranbrook, United Kingdom*
 
-###### **GCSEs & A-Levels** (secondary education)
-> *2000 – 2005*
+###### **GCSEs & A-Levels** (secondary education) *2000 – 2005*
 
 ------------------------------------------------------------------------
 
