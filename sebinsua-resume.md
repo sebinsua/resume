@@ -42,11 +42,9 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ## Experience
 
-### [~](http://www.momentumlabs.io)
-> London, United Kingdom / Remote
+##### **[~](http://www.momentumlabs.io)** *London, United Kingdom / Remote*
 
-#### Freelancer
-> *Jun '13 – Present*
+###### **Freelancer** *Jun '13 – Present*
 
 *Freelancing, consulting and open-source activities.*
 
@@ -56,11 +54,9 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - [An Express.js middleware to allow one-line installation of analytics into Node.JS projects](https://github.com/sebinsua/express-keenio) for the [Sequoia Capital](https://www.sequoiacap.com/) backed startup [Keen IO](http://keen.io). This was a project born out of an idea I suggested as a way of reducing the time-to-setup of their analytics service from multiple hours/days to around 15 seconds.
 - Continued work on my app Spokes. Designed with Sketch and programmed using Node, Koa, Redis, the graph database Neo4j, Swift, and ReactiveCocoa as well as a few other Cocoapods.
 
-### [McKinsey & Company](http://www.mckinsey.com/)
-> Western Europe
+##### **[McKinsey & Company](http://www.mckinsey.com/)** *Western Europe*
 
-#### Full-stack Engineer
-> *Apr '16 – Dec '16*
+###### **Full-stack Engineer** *Apr '16 – Dec '16*
 
 *McKinsey & Company is a worldwide management consulting firm.*
 
@@ -68,22 +64,18 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - D3. React. Redux. Node.js.
 - Wrote a number of open-source projects (e.g. [`redux-saga-helpers`](https://github.com/sebinsua/redux-saga-helpers) and [`react-redux-wizard`](https://github.com/sebinsua/react-redux-wizard)).
 
-### [The Economist](http://www.economist.com/)
-> London, United Kingdom
+##### **[The Economist](http://www.economist.com/)** *London, United Kingdom*
 
-#### Software Engineer
-> *Sep '15 – Dec '15*
+###### **Software Engineer** *Sep '15 – Dec '15*
 
 *The Economist is an English-language weekly newspaper.*
 
 - React. ES6. Node.
 - Numerous components (e.g. [`@economist/component-articletemplate`](https://github.com/economist-components/component-articletemplate)) used in [The World In 2016 project](http://www.theworldin.com) and potentially other projects.
 
-### [Home Office](https://www.gov.uk/government/organisations/home-office)
-> London, United Kingdom
+##### **[Home Office](https://www.gov.uk/government/organisations/home-office)** *London, United Kingdom*
 
-#### Contract Technology Lead
-> *Jan '15 – Sep '15*
+###### **Contract Technology Lead** *Jan '15 – Sep '15*
 
 *The Home Office is a ministerial department of the Government of the United Kingdom, responsible for immigration, security, and law and order.*
 
@@ -92,41 +84,33 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Gave strategic advice on the architecture of a new project, and later presented this plan at ’Show and Tell’ to a wide range of people throughout the organisation.
 - Created some early prototypes using Java 8 + Dropwizard + Swagger.
 
-### [Red Badger](https://red-badger.com/)
-> London, United Kingdom
+##### **[Red Badger](https://red-badger.com/)** *London, United Kingdom*
 
-#### Contract Node.JS Consultant
-> *Mar '14 – Jul '14*
+###### **Contract Node.JS Consultant** *Mar '14 – Jul '14*
 
 *Red Badger is a creative software workshop.*
 
 - This was a client-facing role in which I provided training to an external team.
 - Node.JS, RabbitMQ, Elasticsearch, Redis.
 
-### [Hailo](https://hailoapp.com/)
-> London, United Kingdom
+##### **[Hailo](https://hailoapp.com/)** *London, United Kingdom*
 
-#### Contract JavaScript Engineer
-> *Sep '13 – Jan '14*
+###### **Contract JavaScript Engineer** *Sep '13 – Jan '14*
 
 *Hailo is the evolution of the hail – a free smartphone app which puts people just two taps away from a licensed taxi, and lets cabbies get more passengers when they want them.*
 
 - Created a series of single-page dashboard apps. Conversations with internal customers helped me to come up with ideas on how to simplify business processes. For example a way of signing off groups of driver’s profile changes was given a UX that defaulted to approval but forced the user to sign a receipt of the changes: this helps with speed while also ensuring accountability.
 - Other components were created so that behaviour relating to presentation was well-separated from configuration and data input; or made so that they could be updated in real-time, for example: an animated map of driver locations.
 
-### [BIZZBY](https://bizzby.com/)
-> London, United Kingdom
+##### **[BIZZBY](https://bizzby.com/)** *London, United Kingdom*
 
-#### Senior Node.JS Engineer
-> *Apr '13 – Jun '13*
+###### **Senior Node.JS Engineer** *Apr '13 – Jun '13*
 
 *BIZZBY is app your service to help you book a trusted local service in 30 seconds.*
 
-### [We R Interactive](http://werinteractive.com/)
-> London, United Kingdom
+##### **[We R Interactive](http://werinteractive.com/)** *London, United Kingdom*
 
-#### Team Lead
-> *Oct '12 – Apr '13*
+###### **Team Lead** *Oct '12 – Apr '13*
 
 *We R Interactive blends the best of games, film and TV production to create social games that bring global audiences together around sport and music.*
 
@@ -134,11 +118,9 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - The system was decomposed into multiple services and stored data in Cassandra. I created a service which would automatically generate a series of questions from a stream of data and a template, a real-time market-outcome resolution service that would automatically resolve a series of previously generated questions depending on a simple DSL and a stream of real-life data, and a service that could have data pushed to or pulled from it and parse this data into a common format before feeding it into a message queue for deeper processing.
 - Setup a continuous integration system using Jenkins, and used Puppet to automate deployment of some of the services to AWS. Later on third-party data issues were reported to stakeholders and dealt with through design chances relating to logging and testing the data quality.
 
-### [Saffron Digital](http://saffrondigital.com/)
-> London, United Kingdom
+##### **[Saffron Digital](http://saffrondigital.com/)** *London, United Kingdom*
 
-#### Team Lead
-> *Oct '10 – Oct '12*
+###### **Team Lead** *Oct '10 – Oct '12*
 
 *Saffron Digital is the global, market-leading provider of connected device video, DRM, advertising and platform services. Saffron Digital was acquired by HTC in 2011.*
 
@@ -147,8 +129,7 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - Architecture and development of a new platform based on understandings gleaned from previous services. Worked on service to orchestrate and configure encoders in order to run encodes in parallel on AWS.
 - A client-side application for Samsung Connected TVs and set-top boxes written in object-orientated JavaScript.
 
-#### PHP Developer
-> *Feb '10 – Oct '10*
+###### **PHP Developer** *Feb '10 – Oct '10*
 
 - A RESTful web service for FOX to support a fully localised Family Guy video streaming Android application. A CMS was also created as well as reporting tools to give the business metrics to measure activity.
 - A web service for Paramount Studio’s the League of Extraordinary Dancers iPhone Application. This was interoperable with the iTunes video store in order to check receipts.
@@ -163,18 +144,14 @@ modelling/analysis; ran a Hackathon with 80 participants.
 
 ###### **Machine Learning** *Feb '16*
 
-[Course Certificate, License E3XLGER56CQ3](https://www.coursera.org/account/accomplishments/verify/E3XLGER56CQ3)
+- [Course Certificate, License E3XLGER56CQ3](https://www.coursera.org/account/accomplishments/verify/E3XLGER56CQ3)
 
 ##### **University of Kent** *Canterbury, United Kingdom*
 
 ###### **Bachelor’s degree in Computer Science** *2005 – 2009*
 
-Courses included Computer Systems and Algorithms, Data Structures and
-Complexity, Data Mining and Knowledge Discovery, Operating Systems and
-Architecture, Software Engineering Practice, Database Systems, and
-Distributed Systems and Networks. While studying here I also coordinated
-and guided a team of four developers creating a DJ mixing application in
-Java for my final project.
+- Courses included Computer Systems and Algorithms, Data Structures and Complexity, Data Mining and Knowledge Discovery, Operating Systems and Architecture, Software Engineering Practice, Database Systems, and Distributed Systems and Networks.
+- While studying here I also coordinated and guided a team of four developers creating a DJ mixing application in Java for my final project.
 
 ##### **Cranbrook School** *Cranbrook, United Kingdom*
 
