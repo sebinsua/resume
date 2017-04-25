@@ -8,8 +8,8 @@
 
 I first learnt to program at the age of sixteen after discovering a
 flourishing homebrew community. Realising that self-taught amateurs
-could create products by themselves was inspiring to me. I’m still
-amazed by what can be created by small empowered teams.
+could create products was inspiring to me. I’m still amazed by the
+work done by small empowered teams.
 
 Over the years I've worked with many languages within many different
 environments. Nowadays I do a lot of commercial work in JavaScript
@@ -23,7 +23,7 @@ programming, the [Elm Architecture](https://github.com/evancz/elm-architecture-t
 and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy).
 
 I specialise in combining technical knowledge with lateral thinking.
-I particularly like to advise on designs that maximise a businesses
+I particularly like to advise on systems that maximise a businesses
 *technical leverage* while also reducing their exposure to *execution costs*.
 Knowing when not to solve a problem is as important as knowing how to solve it.
 
@@ -31,8 +31,8 @@ Knowing when not to solve a problem is as important as knowing how to solve it.
 implementation. I follow the mantra *the right tool for the right job* and
 try to keep solutions as simple and common as possible.
 
-**Other:** I've run small standups in the past; I also enjoy learning about:
-product design, UX, and market analysis; I also ran a Hackathon once.
+**Other:** I've run small standups in the past; I enjoy learning about:
+product design, UX, and market analysis; I ran a Hackathon once.
 
 ------------------------------------------------------------------------
 
