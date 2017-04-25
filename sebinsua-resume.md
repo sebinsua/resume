@@ -1,12 +1,12 @@
 # Seb Insua
-> *Consultant Engineer*<br />
+> *Tech Lead & Consultant Engineer*<br />
 > [me@sebinsua.com](mailto:me@sebinsua.com) • [github.com/sebinsua](http://github.com/sebinsua) • [sebinsua.com](http://sebinsua.com) • [twitter.com/sebinsua](http://twitter.com/sebinsua)
 
 ------------------------------------------------------------------------
 
 ### Summary
 
-I first learnt to program at the age of sixteen after discovering a
+I learnt to program at the age of sixteen after discovering a
 flourishing homebrew community. Realising that self-taught amateurs
 could create products was inspiring to me. I’m still amazed by the
 work done by small empowered teams.
@@ -16,7 +16,7 @@ environments. Nowadays I do a lot of commercial work in JavaScript
 due to its prevalence but in my spare time I like Rust due to
 its mixture of low-level and functional programming.
 
-My software architectures and practices are influenced by: [the
+My engineering practices are influenced by: [the
 twelve-factor app](http://12factor.net), a [conservative attitude
 towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), unit testing & TDD, a light sprinkle of functional 
 programming, the [Elm Architecture](https://github.com/evancz/elm-architecture-tutorial/),
