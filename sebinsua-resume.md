@@ -77,7 +77,7 @@ product design, UX, and market analysis; I ran a Hackathon once.
 - Numerous components (e.g. [`@economist/component-articletemplate`](https://github.com/economist-components/component-articletemplate)) used in [The World In 2016 project](http://www.theworldin.com) and potentially other projects.
 
 ##### **[Home Office](https://www.gov.uk/government/organisations/home-office)** *London, United Kingdom*
-###### **Contract Technology Lead** *Jan '15 – Sep '15*
+###### **Technology Lead** *Jan '15 – Sep '15*
 
 *The Home Office is a ministerial department of the Government of the United Kingdom, responsible for immigration, security, and law and order.*
 
@@ -87,7 +87,7 @@ product design, UX, and market analysis; I ran a Hackathon once.
 - Created some early prototypes using Java 8 + Dropwizard + Swagger.
 
 ##### **[Red Badger](https://red-badger.com/)** *London, United Kingdom*
-###### **Contract Node.JS Consultant** *Mar '14 – Jul '14*
+###### **Node.JS Consultant** *Mar '14 – Jul '14*
 
 *Red Badger is a creative software workshop.*
 
@@ -95,7 +95,7 @@ product design, UX, and market analysis; I ran a Hackathon once.
 - Node.JS, RabbitMQ, Elasticsearch, Redis.
 
 ##### **[Hailo](https://hailoapp.com/)** *London, United Kingdom*
-###### **Contract JavaScript Engineer** *Sep '13 – Jan '14*
+###### **JavaScript Engineer** *Sep '13 – Jan '14*
 
 *Hailo is the evolution of the hail – a free smartphone app which puts people just two taps away from a licensed taxi, and lets cabbies get more passengers when they want them.*
 
