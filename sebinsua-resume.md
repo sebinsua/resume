@@ -18,13 +18,14 @@ its mixture of low-level and functional programming.
 
 My engineering practices are influenced by: [the
 twelve-factor app](http://12factor.net), a [conservative attitude
-towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), unit testing & TDD, a light sprinkle of functional 
+towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), unit testing & TDD, a light sprinkle of functional
 programming, the [Elm Architecture](https://github.com/evancz/elm-architecture-tutorial/),
 and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy).
 
 I specialise in combining technical knowledge with lateral thinking.
 I particularly like to advise on systems that maximise a businesses
 *technical leverage* while also reducing their exposure to *execution costs*.
+
 Knowing when not to solve a problem is as important as knowing how to solve it.
 
 **Technical specialties:** Full-stack software design and
@@ -45,9 +46,8 @@ product design, UX, and market analysis; I ran a Hackathon once.
 
 - [Banking for your command line.](https://github.com/sebinsua/teller-cli) Written in Rust.
 - [Access Twitter data without an API key.](https://github.com/sebinsua/scrape-twitter)
-- [Quick and easy JSON transformations.](https://github.com/sebinsua/jstruct)
+- [Graphviz templates as visual configuration of Neo4j database insertions.](https://github.com/sebinsua/graphviz-config-template)
 - [An Express.js middleware to allow one-line installation of analytics into Node.JS projects](https://github.com/sebinsua/express-keenio) for the [Sequoia Capital](https://www.sequoiacap.com/) backed startup [Keen IO](http://keen.io). This was a project born out of an idea I suggested as a way of reducing the time-to-setup of their analytics service from multiple hours/days to around 15 seconds.
-- Continued work on my app Spokes. Designed with Sketch and programmed using Node, Koa, Redis, the graph database Neo4j, Swift, and ReactiveCocoa as well as a few other Cocoapods.
 
 ##### **[YLD](http://yld.io/)** *London*
 ###### **Node.js Engineer** *Jan '17 – Apr '17*
@@ -73,7 +73,7 @@ product design, UX, and market analysis; I ran a Hackathon once.
 
 *The Economist is an English-language weekly newspaper.*
 
-- React. ES6. Node.
+- React. ES6. Node.js.
 - Numerous components (e.g. [`@economist/component-articletemplate`](https://github.com/economist-components/component-articletemplate)) used in [The World In 2016 project](http://www.theworldin.com) and potentially other projects.
 
 ##### **[Home Office](https://www.gov.uk/government/organisations/home-office)** *London, United Kingdom*
@@ -114,14 +114,14 @@ product design, UX, and market analysis; I ran a Hackathon once.
 
 - Designed and lead the creation of a back-end system to support a sport game as well as recruiting developers for my team.
 - The system was decomposed into multiple services and stored data in Cassandra. I created a service which would automatically generate a series of questions from a stream of data and a template, a real-time market-outcome resolution service that would automatically resolve a series of previously generated questions depending on a simple DSL and a stream of real-life data, and a service that could have data pushed to or pulled from it and parse this data into a common format before feeding it into a message queue for deeper processing.
-- Setup a continuous integration system using Jenkins, and used Puppet to automate deployment of some of the services to AWS. Later on third-party data issues were reported to stakeholders and dealt with through design chances relating to logging and testing the data quality.
+- Setup a continuous integration system using Jenkins, and used Puppet to automate deployment of some of the services to AWS.
 
 ##### **[Saffron Digital](http://saffrondigital.com/)** *London, United Kingdom*
 ###### **Team Lead** *Oct '10 – Oct '12*
 
 *Saffron Digital is the global, market-leading provider of connected device video, DRM, advertising and platform services. Saffron Digital was acquired by HTC in 2011.*
 
-- Project leader and architect of the HTC Watch project in which I lead a team of five developers. Due to my early work on internationalisation and implementation of multiple payment services we were able to run this globally in close to 20 countries. Later on the project became a baseline for future web services for other clients.
+- Architect on the HTC Watch project in which I later lead a team of five developers. Due to my early work on internationalisation and implementation of multiple payment services we were able to scale this up to 20 countries.
 - Significant input in re-engineering development process as we moved from being a startup to a larger company. For example: an engineer empowering company culture; Git instead of SVN; continuous integration; modern deployment tools; etc.
 - Architecture and development of a new platform based on understandings gleaned from previous services. Worked on service to orchestrate and configure encoders in order to run encodes in parallel on AWS.
 - A client-side application for Samsung Connected TVs and set-top boxes written in object-orientated JavaScript.
@@ -144,9 +144,6 @@ product design, UX, and market analysis; I ran a Hackathon once.
 
 ##### **University of Kent** *Canterbury, United Kingdom*
 ###### **Bachelor’s degree in Computer Science** *2005 – 2009*
-
-- Courses included Computer Systems and Algorithms, Data Structures and Complexity, Data Mining and Knowledge Discovery, Operating Systems and Architecture, Software Engineering Practice, Database Systems, and Distributed Systems and Networks.
-- While studying here I also coordinated and guided a team of four developers creating a DJ mixing application in Java for my final project.
 
 ##### **Cranbrook School** *Cranbrook, United Kingdom*
 ###### **GCSEs & A-Levels** (secondary education) *2000 – 2005*
