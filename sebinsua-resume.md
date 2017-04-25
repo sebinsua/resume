@@ -1,41 +1,38 @@
 # Seb Insua
-> *Tech Lead & Full-stack Engineer*<br />
-> [me@sebinsua.com](mailto:me@sebinsua.com) • 079 123 03758 • [github.com/sebinsua](http://github.com/sebinsua) • [sebinsua.com](http://sebinsua.com) • [twitter.com/sebinsua](http://twitter.com/sebinsua)
+> *Consultant Engineer*<br />
+> [me@sebinsua.com](mailto:me@sebinsua.com) • [github.com/sebinsua](http://github.com/sebinsua) • [sebinsua.com](http://sebinsua.com) • [twitter.com/sebinsua](http://twitter.com/sebinsua)
 
 ------------------------------------------------------------------------
 
 ### Summary
 
-I learnt to program when I was sixteen after discovering a small but
-flourishing homebrew community. Realising that self-taught amateurs were
-able to network with each other to create products without large amounts
-of capital was hugely inspiring to me. While the culture of software
-development has changed since then, I’m still amazed by what can be
-built by small empowered teams.
+I first learnt to program at the age of sixteen after discovering a
+flourishing homebrew community. Realising that self-taught amateurs
+could create products by themselves was inspiring to me. I’m still
+amazed by what can be created by small empowered teams.
 
-As a full-stack engineer I’ve managed to stay on top of language trends,
-however often work in JavaScript due to its prevalence, or Rust due to
-its forward-thinking design. I consider my speciality to be in combining
-technical knowledge with lateral thinking, and a role I like to occupy
-is that of advising businesses on cross-functional product/technical
-designs that should maximise their *technical leverage* while also
-reducing their exposure to *execution costs*.
+Over the years I've worked with many languages within many different
+environments. Nowadays I do a lot of commercial work in JavaScript
+due to its prevalence but in my spare time I like Rust due to
+its mixture of low-level and functional programming.
 
-Over the years, my engineering practices have been influenced by: [the
-twelve-factor app](http://12factor.net), functional programming,
-micro-services, unit testing (TDD), the [Elm
-Architecture](https://github.com/evancz/elm-architecture-tutorial/), and
-[Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy).
+My software architectures and practices are influenced by: [the
+twelve-factor app](http://12factor.net), a [conservative attitude
+towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), unit testing & TDD, a light sprinkle of functional 
+programming, the [Elm Architecture](https://github.com/evancz/elm-architecture-tutorial/),
+and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy).
+
+I specialise in combining technical knowledge with lateral thinking.
+I particularly like to advise on designs that maximise a businesses
+*technical leverage* while also reducing their exposure to *execution costs*.
+Knowing when not to solve a problem is as important as knowing how to solve it.
 
 **Technical specialties:** Full-stack software design and
-implementation. I follow the mantra *the right tool for the right job*
-and quickly pick things up. I enjoy working both on the back-end with
-Node.JS and Rust; and on the front-end with JavaScript, React, Redux and
-Flowtype. I’ve also done some work for iOS using Swift.
+implementation. I follow the mantra *the right tool for the right job* and
+try to keep solutions as simple and common as possible.
 
-**Leadership, Product & Operations:** Experience in team leadership;
-enjoy being involved in: product design, UX, customer/business
-modelling/analysis; ran a Hackathon with 80 participants.
+**Other:** I've run small standups in the past; I also enjoy learning about:
+product design, UX, and market analysis; I also ran a Hackathon once.
 
 ------------------------------------------------------------------------
 
@@ -51,6 +48,16 @@ modelling/analysis; ran a Hackathon with 80 participants.
 - [Quick and easy JSON transformations.](https://github.com/sebinsua/jstruct)
 - [An Express.js middleware to allow one-line installation of analytics into Node.JS projects](https://github.com/sebinsua/express-keenio) for the [Sequoia Capital](https://www.sequoiacap.com/) backed startup [Keen IO](http://keen.io). This was a project born out of an idea I suggested as a way of reducing the time-to-setup of their analytics service from multiple hours/days to around 15 seconds.
 - Continued work on my app Spokes. Designed with Sketch and programmed using Node, Koa, Redis, the graph database Neo4j, Swift, and ReactiveCocoa as well as a few other Cocoapods.
+
+##### **[YLD](http://yld.io/)** *London*
+###### **Node.js Engineer** *Jan '17 – Apr '17*
+
+*YLD is one of London’s fastest growing software engineering consultancies working with European brands such as The Economist, Trainline and Thomas Cook.*
+
+- Code reviews. Troubleshooting framework issues. Implementation of 4 Node microservices.
+- Created shared helpers to ensure a set of data exists during test execution.
+- Improved the error handling and logging of an in-house microservices framework.
+- Wrote a bit of documentation explaining the process of migration between SQLite and MySQL.
 
 ##### **[McKinsey & Company](http://www.mckinsey.com/)** *Western Europe*
 ###### **Full-stack Engineer** *Apr '16 – Dec '16*
