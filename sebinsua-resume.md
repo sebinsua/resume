@@ -49,6 +49,11 @@ product design, UX, and market analysis; I ran a Hackathon once.
 - [Graphviz templates as visual configuration of Neo4j database insertions.](https://github.com/sebinsua/graphviz-config-template)
 - [An Express.js middleware to allow one-line installation of analytics into Node.JS projects](https://github.com/sebinsua/express-keenio) for the [Sequoia Capital](https://www.sequoiacap.com/) backed startup [Keen IO](http://keen.io). This was a project born out of an idea I suggested as a way of reducing the time-to-setup of their analytics service from multiple hours/days to around 15 seconds.
 
+##### **[Investment Bank](https://en.wikipedia.org/wiki/List_of_investment_banks#Largest_full-service_investment_banks)** *London*
+###### **Application Engineer** *Jun '17 – Present*
+
+*Building a trading application at a tier-one investment bank.*
+
 ##### **[YLD](http://yld.io/)** *London*
 ###### **Node.js Engineer** *Jan '17 – Apr '17*
 
