@@ -1,6 +1,6 @@
 # Seb Insua
 
-> _Tech Lead & Consultant Engineer_<br /> > [me@sebinsua.com](mailto:me@sebinsua.com) • [github.com/sebinsua](http://github.com/sebinsua) • [sebinsua.com](http://sebinsua.com) • [twitter.com/sebinsua](http://twitter.com/sebinsua)
+> _Engineering Lead & Consultant Engineer_<br /> > [me@sebinsua.com](mailto:me@sebinsua.com) • [github.com/sebinsua](http://github.com/sebinsua) • [sebinsua.com](http://sebinsua.com) • [twitter.com/sebinsua](http://twitter.com/sebinsua)
 
 ---
 
@@ -48,6 +48,21 @@ _Freelancing, consulting and open-source activities._
 - [Banking for your command line.](https://github.com/sebinsua/teller-cli) Written in Rust.
 - [Access Twitter data without an API key.](https://github.com/sebinsua/scrape-twitter)
 - [Graphviz templates as visual configuration of Neo4j database insertions.](https://github.com/sebinsua/graphviz-config-template)
+
+##### **[JPMorgan Chase & Co.](https://www.jpmorgan.com/country/uk/en/jpmorgan)** _London_
+
+###### **Architect** _Aug '19 – Feb '20_
+
+_JPMorgan Chase & Co. is an American multinational banking and financial services holding company headquartered in New York City._
+
+- Introduced visual regression testing.
+  - I auto-generated tests from pre-existing code.
+  - I made open-source contributions to the libraries `cypress` and `cypress-image-snapshot`.
+  - I reduced the time the tests took to run from ~25 minutes to ~10 minutes by writing a codemod that auotomated rewriting 10,000s of lines of code to use code-splitting techniques.
+  - I wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (otherwise image regressions break due to OS, browser, and font rendering differences).
+  - I used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
+- Introduced TypeScript into a large React project.
+- Upgraded a large 50+ component library from v3 of Material UI to v4.
 
 ##### **[Shell](https://www.shell.com)** _London_
 

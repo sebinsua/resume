@@ -17,7 +17,7 @@
 \begin{document}  % begin the content of the document
 \sloppy  % this to relax whitespacing in favour of straight margins
 
-\maintitle{Seb Insua}{Tech Lead \& Consultant Engineer}  % title on top of the document
+\maintitle{Seb Insua}{Engineering Lead \& Consultant Engineer}  % title on top of the document
 
 \nobreakvspace{0.3em}  % add some page break averse vertical spacing
 
@@ -28,6 +28,7 @@
 % \\ breaks the line into a new paragraph
 \noindent
 me@sebinsua.com\sbull
+07912303758\sbull
 \href{http://github.com/sebinsua}{github.com/sebinsua}\sbull
 \href{http://sebinsua.com}{sebinsua.com}\sbull
 \href{http://twitter.com/sebinsua}{twitter.com/sebinsua}
@@ -76,6 +77,28 @@ try to keep solutions as simple and common as possible.}
       \item \href{https://github.com/sebinsua/graphviz-config-template}{Graphviz templates as visual configuration of Neo4j database insertions.}
     \end{itemize}
   }}
+}
+
+\headedsection
+  {\href{https://www.jpmorgan.com/country/uk/en/jpmorgan}{JPMorgan Chase & Co.}}
+  {\textsc{London, United Kingdom}} {%
+  \headedsubsection
+    {Architect}
+    {Aug \apo19 -- Feb \apo20}
+    {\bodytext{\emph{JPMorgan Chase & Co. is an American multinational banking and financial services holding company.}
+    \begin{itemize}[leftmargin=0cm]
+      \item Introduced visual regression testing. 
+      \begin{enumerate}[leftmargin=0.5cm]
+          \item I auto-generated tests from pre-existing code.
+          \item I made open-source contributions to the libraries `cypress` and `cypress-image-snapshot`.
+          \item I reduced the time the tests took to run from ~25 minutes to ~10 minutes by writing a codemod that auotomated rewriting 10,000s of lines of code to use code-splitting techniques.
+          \item I wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (otherwise image regressions break due to OS, browser, and font rendering differences).
+          \item I wrote an Argo workflow that parallelised the tests on a Kubernetes cluster, and that effectively allowed test runs that would otherwise take hours, to run in under a minute.
+      \end{enumerate}
+      \item Introduced TypeScript into a large React project.
+      \item Upgraded a large 50+ component library from v3 of Material UI to v4.
+    \end{itemize}
+    }}
 }
 
 \headedsection
