@@ -6,40 +6,29 @@
 
 ### Summary
 
-I learnt to program at the age of sixteen after discovering a
-flourishing homebrew community. Realising that self-taught amateurs
-could create products was inspiring to me. I’m still amazed by the
-work done by small empowered teams.
+I learnt to program at the age of sixteen after discovering a flourishing homebrew community. Realising that self-taught amateurs could create products was inspiring to me. I'm still amazed by what can be achieved by small empowered teams.
 
-Over the years I've worked with many languages within many different
-environments. Nowadays I do a lot of commercial work in JavaScript
-due to its prevalence but in my spare time I like Rust due to
-its mixture of low-level and functional programming.
+Over the years I've worked with many programming languages, but nowadays I do a lot of commercial work in JavaScript, and in my spare time love to use Rust due to its mix of modern syntax and low-level programming.
 
-My engineering practices are influenced by: [the
+I used to do a lot of functional programming, but recently I just try to borrow the concepts and write the plainest, most boring imperative code I can. Overall, my engineering practices are influenced by [the
 twelve-factor app](http://12factor.net), a [conservative attitude
-towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), unit testing & TDD, a light sprinkle of functional
-programming, the [Elm Architecture](https://github.com/evancz/elm-architecture-tutorial/),
-and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy).
+towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), the [Elm Architecture](https://github.com/evancz/elm-architecture-tutorial/),
+and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy). I follow the mantra _the right tool for the right job_ and
+try to keep solutions as simple and common as possible.
 
-I specialise in combining technical knowledge with lateral thinking.
-I particularly like to advise on systems that maximise a businesses
-_technical leverage_ while also reducing their exposure to _execution costs_.
+I particularly like to advise on ways to maximise a businesses
+_technical leverage_ while also reducing their _execution costs_.
 
 Knowing when not to solve a problem is as important as knowing how to solve it.
 
 **Technical specialties:** Full-stack software design and
-implementation. I follow the mantra _the right tool for the right job_ and
-try to keep solutions as simple and common as possible.
-
-**Other:** I've run small standups in the past; I enjoy learning about:
-product design, UX, and market analysis; I ran a Hackathon once.
+implementation.
 
 ---
 
 ### Experience
 
-##### **[~](http://www.momentumlabs.io)** _London, United Kingdom / Remote_
+##### **[~](http://hire.duplo.tech)** _London, United Kingdom / Remote_
 
 ###### **Freelancer** _Jun '13 – Present_
 
@@ -55,14 +44,13 @@ _Freelancing, consulting and open-source activities._
 
 _JPMorgan Chase & Co. is an American multinational banking and financial services holding company headquartered in New York City._
 
+- Advised on the technical direction across the line of business, providing ways forward to difficult organisational technical problems.
 - Introduced visual regression testing.
-  - I auto-generated tests from pre-existing code.
-  - I made open-source contributions to the libraries `cypress` and `cypress-image-snapshot`.
-  - I reduced the time the tests took to run from ~25 minutes to ~10 minutes by writing a codemod that auotomated rewriting 10,000s of lines of code to use code-splitting techniques.
-  - I wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (otherwise image regressions break due to OS, browser, and font rendering differences).
-  - I used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
+  - Auto-generated 100s of tests and then reduced the time these tests took to run from ~25 minutes to ~10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
+  - Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
+  - Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
 - Introduced TypeScript into a large React project.
-- Upgraded a large 50+ component library from v3 of Material UI to v4.
+- Helped with the upgrade of a large 50+ component library from v3 of Material UI to v4.
 
 ##### **[Shell](https://www.shell.com)** _London_
 
@@ -165,7 +153,7 @@ _BIZZBY is app your service to help you book a trusted local service in 30 secon
 
 _We R Interactive blends the best of games, film and TV production to create social games that bring global audiences together around sport and music._
 
-- Designed and lead the creation of a back-end system to support a sport game as well as recruiting developers for my team.
+- Designed and led the creation of a back-end system to support a sport game as well as recruiting developers for my team.
 - The system was decomposed into multiple services and stored data in Cassandra. I created a service which would automatically generate a series of questions from a stream of data and a template, a real-time market-outcome resolution service that would automatically resolve a series of previously generated questions depending on a simple DSL and a stream of real-life data, and a service that could have data pushed to or pulled from it and parse this data into a common format before feeding it into a message queue for deeper processing.
 - Setup a continuous integration system using Jenkins, and used Puppet to automate deployment of some of the services to AWS.
 
@@ -175,7 +163,7 @@ _We R Interactive blends the best of games, film and TV production to create soc
 
 _Saffron Digital is the global, market-leading provider of connected device video, DRM, advertising and platform services. Saffron Digital was acquired by HTC in 2011._
 
-- Architect on the HTC Watch project in which I later lead a team of five developers. Due to my early work on internationalisation and implementation of multiple payment services we were able to scale this up to 20 countries.
+- Architect on the HTC Watch project in which I later led a team of five developers. Due to my early work on internationalisation and implementation of multiple payment services we were able to scale this up to 20 countries.
 - Significant input in re-engineering development process as we moved from being a startup to a larger company. For example: an engineer empowering company culture; Git instead of SVN; continuous integration; modern deployment tools; etc.
 - Architecture and development of a new platform based on understandings gleaned from previous services. Worked on service to orchestrate and configure encoders in order to run encodes in parallel on AWS.
 - A client-side application for Samsung Connected TVs and set-top boxes written in object-orientated JavaScript.
@@ -209,4 +197,4 @@ _Please refer to [my Linkedin profile](http://www.linkedin.com/in/sebinsua) for 
 
 ### Interests
 
-Design, Economics, Philosophy, Poetry.
+Business, Economics, Poetry.
