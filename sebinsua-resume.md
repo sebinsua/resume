@@ -105,7 +105,7 @@ _McKinsey & Company is a worldwide management consulting firm._
 
 ##### **[The Economist](http://www.economist.com/)** _London, United Kingdom_
 
-###### **Software Engineer** _Sep '15 – Dec '15_
+###### **Full-stack Engineer** _Sep '15 – Dec '15_
 
 _The Economist is an English-language weekly newspaper._
 

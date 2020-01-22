@@ -1,0 +1,221 @@
+% LaTeX source of my resume
+% =========================
+
+% Commented for easy reuse... ;)
+
+% See the `README.md` file for more info.
+
+% This file is licensed under the CC-NC-ND Creative Commons license.
+
+
+% start a document with the here given default font size and paper size
+\documentclass[10pt,a4paper]{article}
+
+% include the `tex` instructions that takes care of loading packages and defining commands
+\include{resume-commands}
+
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax whitespacing in favour of straight margins
+
+\maintitle{Seb Insua}{Engineering Lead}  % title on top of the document
+
+\nobreakvspace{0.3em}  % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\noindent
+me@sebinsua.com\sbull
+07912303758\sbull
+\href{http://github.com/sebinsua}{github.com/sebinsua}\sbull
+\href{http://sebinsua.com}{sebinsua.com}\sbull
+\href{http://twitter.com/sebinsua}{twitter.com/sebinsua}
+
+\spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
+
+\roottitle{Summary}  % a root section title
+
+\vspace{-0em}  % some vertical spacing
+
+\noindent Hands-on Engineering Leader with 10+ years of diversified experience and a passion for everything technical, ranging from real-time applications to cloud engineering.
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Specialties:}
+  {Full-stack architecture and implementation using TypeScript, React, Node.js, PostgreSQL and Kubernetes.}
+
+\spacedhrule{1.5em}{-0.4em}
+
+\roottitle{Career Highlights}
+
+\begin{indentsection}
+\item
+\begin{itemize}[leftmargin=0cm]
+
+    \item \textbf{Enabled the successful rewrite of a large trading application with a hard deadline.} The deadline was driven by Flash reaching end-of-life. I developed modern tooling, libraries and practices to enable teams to work in a highly scalable manner, and this allowed multiple teams (6-8 teams, 3-5 developers per team) to work independently yet benefit from code re-use.
+
+    \item \textbf{Enabled test workflows that would normally take hours to run, to run in under a minute.} By using the container-native workflow engine Argo, I was able to parallelise E2E tests on a Kubernetes cluster.
+
+    \item \textbf{Setup a Data Engineering/Science Practice.} This included hiring a team from scratch, evaluating an original consultancies work, increasing the end-to-end performance of data pipelines by 4x, setting up quality control gates, and teaching training workshops on modern practices.
+
+    \item \textbf{A meaningful amount of open-source work.} This is visible on both GitHub and Gist and ranges from bug fixes to tools used by my clients (e.g. Rollup), to novel API designs. It demonstrates my ability with a wide range of technologies (JavaScript, Rust, Swift, Python, Node.js, React, React Native, Linux, etc.)
+
+\end{itemize}
+\end{indentsection}
+
+\roottitle{Selected Experience}
+
+\headedsection  % sets the header for the section and includes any subsections
+  {\href{http://github.com/sebinsua}{Open-source}}
+  {} {%
+  \headedsubsection  % sets the header for a subsection and contains usually body text
+    {Open-source Contributor}
+    {Jun \apo13 -- Present}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item \href{https://github.com/sebinsua/teller-cli}{Banking for your command line.} Written in Rust.
+      \item \href{https://github.com/sebinsua/scrape-twitter}{Access Twitter data without an API key.}
+      \item \href{https://github.com/sebinsua/graphviz-config-template}{Graphviz templates as visual configuration of Neo4j database insertions.}
+    \end{itemize}
+    }}
+}
+
+\headedsection
+  {\href{https://www.jpmorgan.com/country/uk/en/jpmorgan}{JPMorgan Chase \& Co.}}
+  {} {%
+  \headedsubsection
+    {Architect}
+    {Aug \apo19 -- Feb \apo20}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item Advised on the technical direction of the group and provided solutions to difficult organisational problems.
+      \item Introduced visual regression testing. 
+      \begin{enumerate}[leftmargin=0.5cm]
+        \item Auto-generated 100s of tests and then reduced the time these tests took to run from 25 minutes to 10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
+        \item Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
+        \item Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
+      \end{enumerate}
+      \item Introduced TypeScript into a large React project.
+      \item Helped with the upgrade of a large 50+ component library from v3 of Material UI to v4.
+    \end{itemize}
+    }}
+}
+
+\headedsection
+  {\href{https://www.shell.com}{Shell}}
+  {} {%
+  \headedsubsection
+    {Technical Lead}
+    {Dec \apo18 -- Jun \apo19}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item Laid the foundations of a Data Science/Engineering practice.
+      \item Starting from zero, hired multiple Data Engineers and Data Scientists into the team (approximately 10 DE/DS). Established a streamlined hiring process for the future.
+      \item Reviewed earlier work on the project by a consultancy, and created a plan on how to improve problem areas. Communicated the path forwards to both non-technical stakeholders and globally distributed technical team members. Centred power within a core DE/DS team that would oversee future quality, and setup weekly discussions for thoughtful collaboration and daily stand-ups to stay in sync.
+      \item Prioritised the rapid build of a scalable data platform to enable the new development workflow. This caused the data pipeline to run end-to-end 4x faster.
+      \item Helped the team to share their knowledge of modern software engineering practices. Together we created and taught training workshops to teach Data Scientists modern practices for collaborating towards high-quality models (Git, PRs, CI, etc). Outside of the workshops, we used shared repositories to document the onboarding process, how to use Git for collaboration, best practices in EDAs, etc.
+      \item Tools: Azure, CircleCI, Docker, Helm, Jupyter, Kubernetes, Python, Spark Cluster, Written Word.
+    \end{itemize}
+    }}
+}
+
+\headedsection
+  {\href{https://www.jpmorgan.com/country/uk/en/jpmorgan}{JPMorgan Chase \& Co.}}
+  {} {%
+  \headedsubsection
+    {Application Engineer}
+    {Jun \apo17 -- Dec \apo18}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item Helped to lay the foundations necessary for the high-scale software development of a complex realtime trading application built using TypeScript, React and Emotion.
+      \item Improved the quality of the PR process by developing a Danger plugin that allowed rapid feedback of real work by automatically deploying sites and linking these to PRs.
+      \item Evangelised a modern development process with high levels of modularity by demonstrating how to use Rollup and Babel 7 to create best-in-class packages that support CommonJS, ES modules and types.
+      \item Improved integration by making an authenticated and declarative API for the loading and code-splitting of sub-applications.
+      \item Used working code to teach best practices on higher-order components, render props, performance, hooks, etc.
+    \end{itemize}
+    }}
+}
+
+\headedsection
+  {\href{hhttp://yld.io/}{YLD}}
+  {} {%
+  \headedsubsection
+    {Node.js Engineer}
+    {Jan \apo17 -- Apr \apo17}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item Code reviews. How-to guides. Implementation of 4 Node.js microservices. Improved error handling.
+    \end{itemize}    
+    }}
+}
+
+\headedsection
+  {\href{http://www.mckinsey.com}{McKinsey \& Company}}
+  {} {%
+  \headedsubsection
+    {Full-stack Engineer}
+    {Apr \apo16 -- Dec \apo16}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item Code reviews. Mentoring. Documentation. Architecture. Implementation of a UI using React, Redux and D3.
+      \item Wrote a number of open-source projects (e.g. \href{https://github.com/sebinsua/redux-saga-helpers}{redux-saga-helpers} and \href{https://github.com/sebinsua/react-redux-wizard}{react-redux-wizard}).
+    \end{itemize}    
+    }}
+}
+
+\headedsection
+  {\href{http://www.economist.com}{The Economist}}
+  {} {%
+  \headedsubsection
+    {Full-stack Engineer}
+    {Sep \apo15 -- Dec \apo15}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item Created an Express.js app and numerous React components (e.g. \href{https://github.com/economist-components/component-articletemplate}{@economist/component-articletemplate}) for the \href{http://www.theworldin.com}{The World In 2016}.
+    \end{itemize}  
+    }}
+}
+
+\headedsection
+  {\href{http://gov.uk/government/organisations/home-office}{Home Office}}
+  {} {%
+  \headedsubsection
+    {Technology Lead}
+    {Jan \apo15 -- Sep \apo15}
+    {\bodytext{
+    \begin{itemize}[leftmargin=0cm]
+      \item Rebuilt a sprawling legacy system into a set of 6 Node.js microservices and a React front-end.
+    \end{itemize}
+    }}
+}
+
+\begin{center}
+  \emph{Please refer to \href{https://github.com/sebinsua/resume/blob/master/sebinsua-resume-with-career-highlights.pdf}{my full CV} or my \href{http://www.linkedin.com/in/sebinsua}{my Linkedin profile} for the complete list of work experiences.}
+\end{center}
+
+\spacedhrule{-0.2em}{-0.4em}
+
+\roottitle{Education}
+
+\headedsection
+  {Coursera}
+  {\textsc{Online}} {%
+  \headedsubsection
+    {Machine Learning}
+    {Feb \apo16}
+    {\bodytext{\href{https://www.coursera.org/account/accomplishments/verify/E3XLGER56CQ3}{Course Certificate, License E3XLGER56CQ3}}
+  }
+}
+
+\headedsection
+  {University of Kent}
+  {\textsc{Canterbury, United Kingdom}} {%
+  \headedsubsection
+    {Bachelor's degree in Computer Science}
+    {2005 -- 2009}
+    {\bodytext{}
+  }
+}
+
+\end{document}
