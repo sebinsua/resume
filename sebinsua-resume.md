@@ -74,7 +74,7 @@ Tools: Azure, CircleCI, Docker, Email, Helm, Jupyter, Kubernetes, Python, Spark 
 
 _JPMorgan Chase & Co. is an American multinational banking and financial services holding company headquartered in New York City._
 
-Helped to lay the foundations necessary for the high-scale software development of a complex realtime trading application built using TypeScript and React.
+Facilitated the high-scale software development of a complex realtime trading application built using TypeScript, React and Emotion.
 
 - Improved observability of software development by introducing a CI/CD environment that supports rapid feedback on real work by automatically deploying sites and posting comments into PRs linking to these.
 - Improved modularity of software by demonstrating how to use Rollup and Babel 7 to create best-in-class packages that support CommonJS, ES modules and types.
