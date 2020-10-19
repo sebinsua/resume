@@ -10,14 +10,12 @@ I learnt to program at the age of sixteen after discovering a flourishing homebr
 
 I am comfortable in almost any kind of software engineering position, whether it's developing native apps, tooling, data pipelines, back-end systems or complex real-time applications. I do a lot of commercial work in JavaScript, but in my spare time love developing with Rust due to its unique mix of modern syntax and low-level programming.
 
-I used to do functional programming but nowadays try to take its principles but write plain imperative code. Overall, my engineering practices are influenced by [the
+I used to do functional programming but nowadays try to borrow its principles and use these to write beginner-friendly procedural code. Overall, my engineering practices are influenced by [the
 twelve-factor app](http://12factor.net), a [conservative attitude
 towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy). I follow the mantra _the right tool for the right job_ and
 stay as simple and common as possible.
 
-I am deeply focused on _finding the right problem_.
-
-Knowing when not to solve a problem is as important as knowing how to solve it.
+I am deeply focused on _finding the right problem_. Knowing when not to solve a problem is as important as knowing how to solve it.
 
 **Technical specialties:** Full-stack software design and implementation.
 
