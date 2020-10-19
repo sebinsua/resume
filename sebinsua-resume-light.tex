@@ -74,14 +74,12 @@ me@sebinsua.com\sbull
     {\bodytext{
     \begin{itemize}[leftmargin=0cm]
       \item Advised on the technical direction of the group and provided solutions to difficult organisational problems.
-      \begin{itemize}[leftmargin=0.5cm]
-        \item Created caching infrastructure to speed up CI. In one case, builds that previously took ~19 minutes took ~3 minutes.
-      \end{itemize}
+      \item Created caching infrastructure to speed up CI. In one case, builds that previously took ~19 minutes took ~3 minutes.
       \item Helped with the upgrade of a large 50+ component library from v3 of Material UI to v4.
-      \begin{itemize}[leftmargin=0.5cm]
+      \begin{itemize}[leftmargin=0.39cm]
         \item Introduced TypeScript.
         \item Introduced visual regression testing. 
-        \begin{enumerate}[leftmargin=0.5cm]
+        \begin{enumerate}[leftmargin=0.39cm]
           \item Auto-generated 100s of tests and then reduced the time these tests took to run from 25 minutes to 10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
           \item Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
           \item Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.

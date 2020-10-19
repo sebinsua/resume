@@ -32,7 +32,7 @@ Knowing when not to solve a problem is as important as knowing how to solve it.
 _JPMorgan Chase & Co. is an American multinational banking and financial services holding company headquartered in New York City._
 
 - Advised on the technical direction across multiple lines of business, providing ways forward to difficult organisational technical problems.
-  - Created caching infrastructure to speed up CI. In one case, builds that previously took ~19 minutes took ~3 minutes.
+- Created caching infrastructure to speed up CI. In one case, builds that previously took ~19 minutes took ~3 minutes.
 - Helped with the upgrade of a large 50+ component library from v3 of Material UI to v4.
   - Introduced TypeScript.
   - Introduced visual regression testing.
