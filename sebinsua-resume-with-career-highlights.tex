@@ -30,8 +30,7 @@
 me@sebinsua.com\sbull
 07912303758\sbull
 \href{http://github.com/sebinsua}{github.com/sebinsua}\sbull
-\href{http://sebinsua.com}{sebinsua.com}\sbull
-\href{http://twitter.com/sebinsua}{twitter.com/sebinsua}
+\href{http://sebinsua.com}{sebinsua.com}
 
 \spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
 
@@ -45,9 +44,9 @@ me@sebinsua.com\sbull
 
 \noindent I am comfortable in almost any kind of software engineering position, whether it's developing native apps, tooling, data pipelines, back-end systems or complex real-time applications. I do a lot of commercial work in JavaScript, but in my spare time love developing with Rust due to its unique mix of modern syntax and low-level programming.\newline
 
-\noindent I used to do a lot of functional programming, but nowadays I just try to borrow the concepts and write the most beginner-friendly imperative code I can. Overall, my engineering practices are influenced by the \href{http://12factor.net}{twelve-factor app}, a \href{https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/}{conservative attittude towards microservices}, the \href{https://github.com/evancz/elm-architecture-tutorial/}{Elm Architecture}, and \href{http://infoq.com/presentations/Simple-Made-Easy}{Simple Made Easy}. I follow the mantra \emph{the right tool for the right job} and stay as simple and common as possible.\newline
+\noindent I used to do a lot of functional programming, but nowadays I just try to borrow the concepts and write the most beginner-friendly imperative code I can. Overall, my engineering practices are influenced by the \href{http://12factor.net}{twelve-factor app}, a \href{https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/}{conservative attitude towards microservices}, and \href{http://infoq.com/presentations/Simple-Made-Easy}{Simple Made Easy}. I follow the mantra \emph{the right tool for the right job} and stay as simple and common as possible.\newline
 
-\noindent I am deeply focused on \emph{finding the right problem}. Our industry is beset with cargo-culting and if we want better outcomes we must continually ask ourselves whether we're working on the right thing. How can we maximise a businesses \emph{technical leverage} while also reducing its \emph{execution costs}? What is the smaller, more important problem within the problem we're about to work on? What will we cut or delegate?
+\noindent I am deeply focused on \emph{finding the right problem}.
 
 \noindent Knowing when not to solve a problem is as important as knowing how to solve it.
 
@@ -63,50 +62,39 @@ me@sebinsua.com\sbull
 
     \item \textbf{Enabled the successful rewrite of a large trading application with a hard deadline.} The deadline was driven by Flash reaching end-of-life. I improved velocity, by modernizing processes and developing tooling, libraries and practices that enabled teams to work in a highly scalable manner. This allowed multiple teams (6-8 teams, 3-5 developers per team) to work independently yet benefit from code re-use, gradually producing 286 separate packages that composed the application.
 
-    \item \textbf{Enabled test workflows that would normally take hours to run, to run in under a minute.} By using the container-native workflow engine Argo, I was able to parallelise E2E tests on a Kubernetes cluster.
+    \item \textbf{Improved the scalability of development workflows within a large monorepo.} By implementing caching infrastructure we can avoid repeating work.
 
-    \item \textbf{Setup a Data Engineering/Science Practice.} This included hiring a team from scratch, evaluating an original consultancies work, increasing the end-to-end performance of data pipelines by 4x, setting up quality control gates, and teaching training workshops on modern practices.
+    \item \textbf{Enabled test workflows that might otherwise take hours to run, to run in under a minute.} By using the container-native workflow engine Argo, I was able to parallelise E2E tests on a Kubernetes cluster.
 
-    \item \textbf{A meaningful amount of open-source work.} This is visible on both GitHub and Gist and ranges from bug fixes to tools used by my clients (e.g. Rollup), to novel API designs. It demonstrates my ability with a wide range of languages and libraries (JavaScript, Rust, Swift, Python, Node.js, React, React Native, etc.)
+    \item \textbf{Setup a Data Engineering/Science Practice.} This included hiring a team from scratch, evaluating an original consultancies work, increasing the end-to-end performance of data pipelines by 4x, setting up quality control gates, and arranging training workshops on modern practices.
 
 \end{itemize}
 \end{indentsection}
 
 \roottitle{Experience}
 
-\headedsection  % sets the header for the section and includes any subsections
-  {\href{http://github.com/sebinsua}{Selected Open-source}}
-  {\textsc{London, United Kingdom}} {%
-
-  \headedsubsection  % sets the header for a subsection and contains usually body text
-    {Open-source Contributor}
-    {Jun \apo13 -- Present}
-    {\bodytext{
-    \begin{itemize}[leftmargin=0cm]
-      \item \href{https://github.com/sebinsua/teller-cli}{Banking for your command line.} Written in Rust.
-      \item \href{https://github.com/sebinsua/scrape-twitter}{Access Twitter data without an API key.}
-      \item \href{https://github.com/sebinsua/graphviz-config-template}{Graphviz templates as visual configuration of Neo4j database insertions.}
-    \end{itemize}
-    }}
-}
-
 \headedsection
   {\href{https://www.jpmorgan.com/country/uk/en/jpmorgan}{JPMorgan Chase \& Co.}}
-  {\textsc{London, United Kingdom}} {%
+  {} {%
   \headedsubsection
-    {Architect}
-    {Aug \apo19 -- Feb \apo20}
-    {\bodytext{\emph{JPMorgan Chase \& Co. is an American multinational banking and financial services holding company.}
+    {Software Engineer / Architect}
+    {Aug \apo19 -- Oct \apo20}
+    {\bodytext{
     \begin{itemize}[leftmargin=0cm]
       \item Advised on the technical direction of the group and provided solutions to difficult organisational problems.
-      \item Introduced visual regression testing. 
-      \begin{enumerate}[leftmargin=0.5cm]
-        \item Auto-generated 100s of tests and then reduced the time these tests took to run from 25 minutes to 10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
-        \item Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
-        \item Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
-      \end{enumerate}
-      \item Introduced TypeScript into a large React project.
+      \begin{itemize}[leftmargin=0.5cm]
+        \item Created caching infrastructure to speed up CI. In one case, builds that previously took ~19 minutes took ~3 minutes.
+      \end{itemize}
       \item Helped with the upgrade of a large 50+ component library from v3 of Material UI to v4.
+      \begin{itemize}[leftmargin=0.5cm]
+        \item Introduced TypeScript.
+        \item Introduced visual regression testing. 
+        \begin{enumerate}[leftmargin=0.5cm]
+          \item Auto-generated 100s of tests and then reduced the time these tests took to run from 25 minutes to 10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
+          \item Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
+          \item Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
+        \end{enumerate}
+      \end{itemize}
     \end{itemize}
     }}
 }

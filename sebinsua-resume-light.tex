@@ -17,7 +17,7 @@
 \begin{document}  % begin the content of the document
 \sloppy  % this to relax whitespacing in favour of straight margins
 
-\maintitle{Seb Insua}{Engineering Lead}  % title on top of the document
+\maintitle{Seb Insua}{Engineering Lead \& Consultant Engineer}  % title on top of the document
 
 \nobreakvspace{0.3em}  % add some page break averse vertical spacing
 
@@ -30,8 +30,7 @@
 me@sebinsua.com\sbull
 07912303758\sbull
 \href{http://github.com/sebinsua}{github.com/sebinsua}\sbull
-\href{http://sebinsua.com}{sebinsua.com}\sbull
-\href{http://twitter.com/sebinsua}{twitter.com/sebinsua}
+\href{http://sebinsua.com}{sebinsua.com}
 
 \spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
 
@@ -55,49 +54,39 @@ me@sebinsua.com\sbull
 
     \item \textbf{Enabled the successful rewrite of a large trading application with a hard deadline.} The deadline was driven by Flash reaching end-of-life. I improved velocity, by modernizing processes and developing tooling, libraries and practices that enabled teams to work in a highly scalable manner. This allowed multiple teams (6-8 teams, 3-5 developers per team) to work independently yet benefit from code re-use, gradually producing 286 separate packages that composed the application.
 
-    \item \textbf{Enabled test workflows that would normally take hours to run, to run in under a minute.} By using the container-native workflow engine Argo, I was able to parallelise E2E tests on a Kubernetes cluster.
+    \item \textbf{Improved the scalability of development workflows within a large monorepo.} By implementing caching infrastructure we can avoid repeating work.
 
-    \item \textbf{Setup a Data Engineering/Science Practice.} This included hiring a team from scratch, evaluating an original consultancies work, increasing the end-to-end performance of data pipelines by 4x, setting up quality control gates, and teaching training workshops on modern practices.
+    \item \textbf{Enabled test workflows that might otherwise take hours to run, to run in under a minute.} By using the container-native workflow engine Argo, I was able to parallelise E2E tests on a Kubernetes cluster.
 
-    \item \textbf{A meaningful amount of open-source work.} This is visible on both GitHub and Gist and ranges from bug fixes to tools used by my clients (e.g. Rollup), to novel API designs. It demonstrates my ability with a wide range of technologies (JavaScript, Rust, Swift, Python, Node.js, React, React Native, Linux, etc.)
+    \item \textbf{Setup a Data Engineering/Science Practice.} This included hiring a team from scratch, evaluating an original consultancies work, increasing the end-to-end performance of data pipelines by 4x, setting up quality control gates, and arranging training workshops on modern practices.
 
 \end{itemize}
 \end{indentsection}
 
 \roottitle{Selected Experience}
 
-\headedsection  % sets the header for the section and includes any subsections
-  {\href{http://github.com/sebinsua}{Open-source}}
-  {} {%
-  \headedsubsection  % sets the header for a subsection and contains usually body text
-    {Open-source Contributor}
-    {Jun \apo13 -- Present}
-    {\bodytext{
-    \begin{itemize}[leftmargin=0cm]
-      \item \href{https://github.com/sebinsua/teller-cli}{Banking for your command line.} Written in Rust.
-      \item \href{https://github.com/sebinsua/scrape-twitter}{Access Twitter data without an API key.}
-      \item \href{https://github.com/sebinsua/graphviz-config-template}{Graphviz templates as visual configuration of Neo4j database insertions.}
-    \end{itemize}
-    }}
-}
-
 \headedsection
   {\href{https://www.jpmorgan.com/country/uk/en/jpmorgan}{JPMorgan Chase \& Co.}}
   {} {%
   \headedsubsection
-    {Architect}
-    {Aug \apo19 -- Feb \apo20}
+    {Software Engineer / Architect}
+    {Aug \apo19 -- Oct \apo20}
     {\bodytext{
     \begin{itemize}[leftmargin=0cm]
       \item Advised on the technical direction of the group and provided solutions to difficult organisational problems.
-      \item Introduced visual regression testing. 
-      \begin{enumerate}[leftmargin=0.5cm]
-        \item Auto-generated 100s of tests and then reduced the time these tests took to run from 25 minutes to 10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
-        \item Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
-        \item Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
-      \end{enumerate}
-      \item Introduced TypeScript into a large React project.
+      \begin{itemize}[leftmargin=0.5cm]
+        \item Created caching infrastructure to speed up CI. In one case, builds that previously took ~19 minutes took ~3 minutes.
+      \end{itemize}
       \item Helped with the upgrade of a large 50+ component library from v3 of Material UI to v4.
+      \begin{itemize}[leftmargin=0.5cm]
+        \item Introduced TypeScript.
+        \item Introduced visual regression testing. 
+        \begin{enumerate}[leftmargin=0.5cm]
+          \item Auto-generated 100s of tests and then reduced the time these tests took to run from 25 minutes to 10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
+          \item Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
+          \item Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
+        \end{enumerate}
+      \end{itemize}
     \end{itemize}
     }}
 }

@@ -1,56 +1,44 @@
 # Seb Insua
 
-> _Engineering Lead & Consultant Engineer_<br /> > [me@sebinsua.com](mailto:me@sebinsua.com) • [github.com/sebinsua](http://github.com/sebinsua) • [sebinsua.com](http://sebinsua.com) • [twitter.com/sebinsua](http://twitter.com/sebinsua)
+> _Engineering Lead & Consultant Engineer_<br /> > [me@sebinsua.com](mailto:me@sebinsua.com) • [github.com/sebinsua](http://github.com/sebinsua) • [gist.github.com/sebinsua](https://gist.github.com/sebinsua) • [sebinsua.com](http://sebinsua.com)
 
 ---
 
 ### Summary
 
-I learnt to program at the age of sixteen after discovering a flourishing homebrew community. Realising that self-taught amateurs could create products was inspiring to me. I'm still amazed by what can be achieved by small empowered teams.
+I learnt to program at the age of sixteen after discovering a flourishing homebrew community. Realising that self-taught amateurs could create products was inspiring to me. I'm still amazed by what small empowered teams achieve.
 
-Over the years I've worked with many programming languages, but nowadays I do a lot of commercial work in JavaScript, and in my spare time love to use Rust due to its mix of modern syntax and low-level programming.
+I am comfortable in almost any kind of software engineering position, whether it's developing native apps, tooling, data pipelines, back-end systems or complex real-time applications. I do a lot of commercial work in JavaScript, but in my spare time love developing with Rust due to its unique mix of modern syntax and low-level programming.
 
-I used to do a lot of functional programming, but recently I just try to borrow the concepts and write the plainest, most boring imperative code I can. Overall, my engineering practices are influenced by [the
+I used to do functional programming but nowadays try to take its principles but write plain imperative code. Overall, my engineering practices are influenced by [the
 twelve-factor app](http://12factor.net), a [conservative attitude
-towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), the [Elm Architecture](https://github.com/evancz/elm-architecture-tutorial/),
-and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy). I follow the mantra _the right tool for the right job_ and
-try to keep solutions as simple and common as possible.
+towards microservices](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/), and [Simple Made Easy](http://infoq.com/presentations/Simple-Made-Easy). I follow the mantra _the right tool for the right job_ and
+stay as simple and common as possible.
 
-I particularly like to advise on ways to maximise a businesses
-_technical leverage_ while also reducing their _execution costs_.
+I am deeply focused on _finding the right problem_.
 
 Knowing when not to solve a problem is as important as knowing how to solve it.
 
-**Technical specialties:** Full-stack software design and
-implementation.
+**Technical specialties:** Full-stack software design and implementation.
 
 ---
 
 ### Experience
 
-##### **[~](http://hire.duplo.tech)** _London, United Kingdom / Remote_
-
-###### **Freelancer** _Jun '13 – Present_
-
-_Freelancing, consulting and open-source activities._
-
-- [Banking for your command line.](https://github.com/sebinsua/teller-cli) Written in Rust.
-- [Access Twitter data without an API key.](https://github.com/sebinsua/scrape-twitter)
-- [Graphviz templates as visual configuration of Neo4j database insertions.](https://github.com/sebinsua/graphviz-config-template)
-
 ##### **[JPMorgan Chase & Co.](https://www.jpmorgan.com/country/uk/en/jpmorgan)** _London_
 
-###### **Architect** _Aug '19 – Feb '20_
+###### **Software Engineer / Architect** _Aug '19 – Oct '20_
 
 _JPMorgan Chase & Co. is an American multinational banking and financial services holding company headquartered in New York City._
 
-- Advised on the technical direction across the line of business, providing ways forward to difficult organisational technical problems.
-- Introduced visual regression testing.
-  - Auto-generated 100s of tests and then reduced the time these tests took to run from ~25 minutes to ~10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
-  - Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
-  - Used the container-native workflow engine Argo to parallelise the tests on a Kubernetes cluster. This effectively allowed test runs that would otherwise take hours, to run in under a minute.
-- Introduced TypeScript into a large React project.
+- Advised on the technical direction across multiple lines of business, providing ways forward to difficult organisational technical problems.
+  - Created caching infrastructure to speed up CI. In one case, builds that previously took ~19 minutes took ~3 minutes.
 - Helped with the upgrade of a large 50+ component library from v3 of Material UI to v4.
+  - Introduced TypeScript.
+  - Introduced visual regression testing.
+    - Auto-generated 100s of tests and then reduced the time these tests took to run from ~25 minutes to ~10 minutes by developing a codemod that automated rewriting 10,000s of lines of application code to use code-splitting techniques.
+    - Contributed to the open-source libraries `cypress` and `cypress-image-snapshot` and wrote cross-platform code and dockerized Cypress so that it could be used by engineers on Mac, Windows and Linux machines (to avoid image regression failures due due to OS, browser, and font rendering differences).
+    - Used the container-native workflow engine Argo to show how tests could parallelise on a Kubernetes cluster. This would allow test runs that would otherwise take hours, to run in under a minute.
 
 ##### **[Shell](https://www.shell.com)** _London_
 
